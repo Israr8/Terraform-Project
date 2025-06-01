@@ -31,8 +31,8 @@ This project uses **Terraform** to deploy a static website on **AWS S3**. It cre
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Israr8/Terraform-Project.git
+   cd Terraform-Project
 ## Initialize Terraform
       terraform init
 
