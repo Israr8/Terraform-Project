@@ -3,13 +3,13 @@
 This project uses **Terraform** to deploy a static website on **AWS S3**. It creates and configures an S3 bucket, uploads HTML files (`index.html` and `error.html`), and sets the bucket up for website hosting.
 
 ## 📁 Project Structure
-.
-├── main.tf # Main infrastructure configuration
-├── provider.tf # Provider and Terraform setup
-├── variables.tf # Input variable definitions
-├── furni-1.0.0/
-│ ├── index.html # Website home page
-│ └── error.html # Custom error page
+         .
+         ├── main.tf # Main infrastructure configuration
+         ├── provider.tf # Provider and Terraform setup
+         ├── variables.tf # Input variable definitions
+         ├── furni-1.0.0/
+         │ ├── index.html # Website home page
+         │ └── error.html # Custom error page
 
 
 ## 🚀 Features
@@ -34,13 +34,13 @@ This project uses **Terraform** to deploy a static website on **AWS S3**. It cre
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
 ## Initialize Terraform
-terraform init
+      terraform init
 
 ## Preview the plan
-terraform plan
+      terraform plan
 
 ## Apply the configuration
-terraform apply
+      terraform apply
 
 Type yes when prompted.
 
@@ -52,7 +52,7 @@ After deployment, visit the S3 website endpoint printed in the output or format 
 🧼 Clean Up
 To destroy the resources created by Terraform:
 
-terraform destroy
+      terraform destroy
 
 📌 Notes
 Make sure the HTML files are present in the furni-1.0.0/ folder.
